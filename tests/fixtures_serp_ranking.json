@@ -1,0 +1,197 @@
+{
+  "_note": "真实检索结果夹具（搜索引擎当次返回的原样，未做任何加工）。由 temp/make_serp_fixture.py 从 results/ 下的 result.json 里抽出，用于锁住 ranking.py 的候选排序行为。",
+  "case_with_attachment": {
+    "batch": "batch_sheet_v2_01",
+    "task": "25_房屋市政工程生产安全重大事故隐患判定标准（2024版）",
+    "requested": "房屋市政工程生产安全重大事故隐患判定标准（2024版）",
+    "results": [
+      {
+        "title": "住房城乡建设部关于印发《 房屋市政工程生产安全重大事故 ...",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995806.htm",
+        "snippet": "2024年12月13日 · 为准确认定、及时消除房屋建筑和市政基础设施工程生产安全重大事故隐患，有效防范和遏制群死群伤事故发生， …",
+        "domain": "www.gov.cn"
+      },
+      {
+        "title": "住房城乡建设部关于印发《 房屋市政工程 生产安全重大事故 ...",
+        "url": "https://www.mohurd.gov.cn/gongkai/zc/xzgfxwjk/art/2024/art_1446154772.html",
+        "snippet": "2024年12月13日 · 各省、自治区住房城乡建设厅，直辖市住房城乡建设（管）委，北京市城市管理委，上海市交通委，新疆生产建设 …",
+        "domain": "www.mohurd.gov.cn"
+      },
+      {
+        "title": "《 房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ...",
+        "url": "https://www.aspd.gov.cn/zwgk/zdlyxx/szfw/202501/t20250123_86669676.html",
+        "snippet": "2025年1月23日 · 住房城乡建设部于2024年12月13日发布了《房屋市政工程 生产安全重大事故隐患判定标准 （2024版）》，现公布如 …",
+        "domain": "www.aspd.gov.cn"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患判定标准 ( 2024版 )",
+        "url": "https://wenku.baidu.com/view/a8a2b22f5cbfc77da26925c52cc58bd630869364.html",
+        "snippet": "房屋市政工程生产安全重大事故隐患判定标准 (2024版)-针对当前房屋市政工程领域安全生产工作的新情况新问题，住建部对相关法律 …",
+        "domain": "wenku.baidu.com"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ）",
+        "url": "https://szwb.sz.gov.cn/gwszwfw/zsk/hybz/content/post_11988484.html",
+        "snippet": "2025年1月26日 · 《房屋市政工程生产安全重大事故隐患判定标准（2024版）》已印发，详见附件。 建筑工务相关行业标准常见问题 …",
+        "domain": "szwb.sz.gov.cn"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202412/P020250101711302201621.docx",
+        "snippet": "2024年8月26日 · 第一条为准确认定、及时消除房屋建筑和市政基础设施工程（以下简称房屋市政工程）生产安全重大事故隐患，有效 …",
+        "domain": "www.gov.cn"
+      },
+      {
+        "title": "住房城乡建设部发布新版 房屋市政工程 生产安全重大事故隐患 ...",
+        "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2024/art_93212b0be5fe482792a8522c4ca1c83b.html",
+        "snippet": "2024年12月24日 · 《标准》适用于判定新建、扩建、改建、拆除房屋市政工程的生产安全重大事故隐患。 县级及以上人民政府住房城 …",
+        "domain": "www.mohurd.gov.cn"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ）",
+        "url": "https://zjj.al.gov.cn/info/1963/12182.htm",
+        "snippet": "2025年11月10日 · 第一条 为准确认定、及时消除房屋建筑和市政基础设施工程（以下简称房屋市政工程）生产安全重大事故隐患，有 …",
+        "domain": "zjj.al.gov.cn"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患判定标准 _百度百科",
+        "url": "https://baike.baidu.com/item/%E6%88%BF%E5%B1%8B%E5%B8%82%E6%94%BF%E5%B7%A5%E7%A8%8B%E7%94%9F%E4%BA%A7%E5%AE%89%E5%85%A8%E9%87%8D%E5%A4%A7%E4%BA%8B%E6%95%85%E9%9A%90%E6%82%A3%E5%88%A4%E5%AE%9A%E6%A0%87%E5%87%86/60849632",
+        "snippet": "2024年12月13日 · 该标准适用于判定新建、扩建、改建、拆除房屋市政工程的生产安全重大事故隐患，县级及以上人民政府住房和城 …",
+        "domain": "baike.baidu.com"
+      },
+      {
+        "title": "2024版 《 房屋市政工程生产安全重大事故隐患判定标准 ...",
+        "url": "https://wenku.baidu.com/view/578fa2acfeb069dc5022aaea998fcc22bdd14369.html",
+        "snippet": "2022年4月19日 · 2024版《房屋市政工程生产安全重大事故隐患判定标准》解读课件-局、分局、公司、分公司层层响应标准要求，落 …",
+        "domain": "wenku.baidu.com"
+      }
+    ]
+  },
+  "case_without_attachment": {
+    "batch": "batch_naming_demo",
+    "task": "03_房屋市政工程生产安全重大事故隐患判定标准（2024版）",
+    "requested": "房屋市政工程生产安全重大事故隐患判定标准（2024版）",
+    "results": [
+      {
+        "title": "住房城乡建设部关于印发《 房屋市政工程生产安全重大事故 ...",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995806.htm",
+        "snippet": "2024年12月13日 · 为准确认定、及时消除房屋建筑和市政基础设施工程生产安全重大事故隐患，有效防范和遏制群死群伤事故发生， …",
+        "domain": "www.gov.cn"
+      },
+      {
+        "title": "住房城乡建设部关于印发《 房屋市政工程 生产安全重大事故 ...",
+        "url": "https://www.mohurd.gov.cn/gongkai/zc/xzgfxwjk/art/2024/art_1446154772.html",
+        "snippet": "2024年12月13日 · 各省、自治区住房城乡建设厅，直辖市住房城乡建设（管）委，北京市城市管理委，上海市交通委，新疆生产建设 …",
+        "domain": "www.mohurd.gov.cn"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患判定标准 ( 2024版 )",
+        "url": "https://wenku.baidu.com/view/a8a2b22f5cbfc77da26925c52cc58bd630869364.html",
+        "snippet": "2023年10月16日 · 《房屋市政工程生产安全重大事故隐患判定标准（2024版）》，在2022版判定标准10个方面的基础上，新增了施工 …",
+        "domain": "wenku.baidu.com"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ...",
+        "url": "https://wenku.baidu.com/view/fe0bf070cb84b9d528ea81c758f5f61fb736281f.html",
+        "snippet": "住房和城乡建设部于2024年12月13日正式发布《房屋市政工程生产安全重大事故隐患判定标准（2024版）》（建质规〔2024〕5 …",
+        "domain": "wenku.baidu.com"
+      },
+      {
+        "title": "《 房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ...",
+        "url": "https://www.aspd.gov.cn/zwgk/zdlyxx/szfw/202501/t20250123_86669676.html?isMobile=false",
+        "snippet": "2025年1月23日 · 第二条 本标准所称重大事故隐患，是指在房屋市政工程施工过程中，存在的危害程度较大、可能导致群死群伤或造成 …",
+        "domain": "www.aspd.gov.cn"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ）",
+        "url": "https://yjt.zj.gov.cn/art/2025/6/12/art_1229892463_5584330.html",
+        "snippet": "2025年6月12日 · 第一条 为准确认定、及时消除房屋建筑和市政基础设施工程（以下简称房屋市政工程）生产安全重大事故隐患，有效 …",
+        "domain": "yjt.zj.gov.cn"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患 判定标准 （ 2024",
+        "url": "https://21003437.s21i.faiusr.com/61/ABUIABA9GAAgyLytuwYogIGU6AQ.pdf",
+        "snippet": "为准确认定、及时消除房屋建筑和市政基础设施工程( 以下简称房屋市政工程)生 产安全重大事故隐患,有效防范和遏制群死群伤事故发 …",
+        "domain": "21003437.s21i.faiusr.com"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ）",
+        "url": "https://www.ghx.gov.cn/ghx/zfxxgk/fdzdgknr/zdmsxx/zfbz/art/2026/art_aee5bef3a39149129f2dc1cdc03c0986.html",
+        "snippet": "2026年5月14日 · 第一条 为准确认定、及时消除房屋建筑和市政基础设施工程（以下简称房屋市政工程）生产安全重大事故隐患，有效 …",
+        "domain": "www.ghx.gov.cn"
+      },
+      {
+        "title": "住房城乡建设部发布新版 房屋市政工程 生产安全重大事故隐患 ...",
+        "url": "https://www.mohurd.gov.cn/xinwen/gzdt/art/2024/art_93212b0be5fe482792a8522c4ca1c83b.html",
+        "snippet": "2024年12月24日 · 《标准》适用于判定新建、扩建、改建、拆除房屋市政工程的生产安全重大事故隐患。 县级及以上人民政府住房城 …",
+        "domain": "www.mohurd.gov.cn"
+      },
+      {
+        "title": "房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ）",
+        "url": "https://yjglt.yn.gov.cn/html/2025/meitibaodao_0227/4029983.html",
+        "snippet": "2025年2月27日 · 第一条 为准确认定、及时消除房屋建筑和市政基础设施工程（以下简称房屋市政工程）生产安全重大事故隐患，有效 …",
+        "domain": "yjglt.yn.gov.cn"
+      },
+      {
+        "title": "【六合二手房|南京 六合区 二手房出售】 - 南京房天下 - fang.com",
+        "url": "https://nanjing.esf.fang.com/house-a0269/",
+        "snippet": "南京六合二手房9月参考均价8132元/㎡现有二手房房源12391套,房天下南京二手房网为您提供快速全面的南京六合二手房信息及新发布 …",
+        "domain": "nanjing.esf.fang.com"
+      },
+      {
+        "title": "房产网，二手房/新房/租房/写字楼 -房地产租售服务平台 -安居客",
+        "url": "https://www.anjuke.com/",
+        "snippet": "安居客房产网为用户提供找房信息。 包括二手房、新房、租房、商铺、写字楼、海外地产、问答等，挑好房就上安居客.",
+        "domain": "www.anjuke.com"
+      },
+      {
+        "title": "南京 六合区 房产网，南京 六合区 楼盘,2026年 六合区 新开楼盘 ...",
+        "url": "https://nj.fang.anjuke.com/loupan/liuhe/",
+        "snippet": "1 天前 · 南京六合区房产网,为您提供新开南京六合区楼盘信息,南京六合区新房房源信息。 查找六合区新开楼盘信息，查找六合区楼盘 …",
+        "domain": "nj.fang.anjuke.com"
+      },
+      {
+        "title": "六合二手房网，六合房产网，六合二手房买卖出售交易信息 ...",
+        "url": "https://nj.58.com/liuhequ/ershoufang/",
+        "snippet": "58同城南京二手房网为您提供六合二手房出售，六合个人二手房、经纪人发布六合二手房买卖交易信息，包括六合商品房价格，六合次 …",
+        "domain": "nj.58.com"
+      },
+      {
+        "title": "二手房_南京 六合区 二手房出售|南京365淘房",
+        "url": "http://nj.sell.house365.com/district/d10.html",
+        "snippet": "找最新六合区二手房房源、买卖、房价信息,来365淘房.",
+        "domain": "nj.sell.house365.com"
+      },
+      {
+        "title": "【浦口二手房|南京浦口区二手房出售】 - 南京房天下 - fang.com",
+        "url": "https://nanjing.esf.fang.com/house-a0270/",
+        "snippet": "南京浦口二手房9月参考均价14472元/㎡现有二手房房源38243套,房天下南京二手房网为您提供快速全面的南京浦口二手房信息及新发 …",
+        "domain": "nanjing.esf.fang.com"
+      },
+      {
+        "title": "【二手房|二手房买卖|二手房网】- 58同城",
+        "url": "https://www.58.com/ershoufang/",
+        "snippet": "2026年7月23日 · 免费查找和发布二手房买卖信息,请到58同城二手房网频道。",
+        "domain": "www.58.com"
+      },
+      {
+        "title": "城市房产_二手房|新房|租房|公寓|旅居|海外|装修|房价-真房源 ...",
+        "url": "https://www.ke.com/city/",
+        "snippet": "贝壳找房网,拥有全面、真实的房源信息,以及VR看房、房屋估价、智能推荐等业界创新技术,以为2亿家庭提供品质居住服务为愿景。 业 …",
+        "domain": "www.ke.com"
+      },
+      {
+        "title": "全国房地产门户|房地产网】-直播看房抢优惠-全国房天下",
+        "url": "https://www1.fang.com/",
+        "snippet": "3 小时之前 · 森屿文华连续四周蝉联朝阳区网签套数榜首 仰山越海 诗意东方｜建发越秀・观玺案名正式发布 京城土地市场激烈争夺,建 …",
+        "domain": "www1.fang.com"
+      },
+      {
+        "title": "六合房价,2026六合房价走势图，南京六合二手房价格均价查询 ...",
+        "url": "https://nj.58.com/fangjia/8811/",
+        "snippet": "1 天前 · 【房屋简介】两室两厅零卫，南北通透，餐厅客厅可分离，布局合理，生活动线清晰； 【装修情况】精装修，维护保养好， …",
+        "domain": "nj.58.com"
+      }
+    ]
+  }
+}

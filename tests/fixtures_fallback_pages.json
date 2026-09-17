@@ -1,0 +1,677 @@
+{
+ "说明": "兜底页判据的回归夹具。正例=引擎按头名词召回（人工核对过头名词：工程/关于/建筑/施工/山东省）；反例=该批次里含当时真正用之交付文件的那一页（source_url），且字面连续命中很长。",
+ "现场复现": [
+  {
+   "query": "\"山东省建筑工程安全专项施工方案编制审查与专家论证办法\"",
+   "来源": "results\\serial_retry_01\\08_山东省建筑工程安全专项施工方案编制审查与专家论证办法\\result.json",
+   "当时状态": "not_downloadable",
+   "头名词线索": "山东 省_百度百科",
+   "rows": [
+    {
+     "title": "山东 省_百度百科",
+     "url": "https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E7%9C%81/209822",
+     "snippet": "2024年11月25日 · 山东省居 太行山 以东，地处华东沿海、 黄河 下游、 京杭大运河 中北段，介于北纬34°25'～38°23'，东 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "山东 省人民政府",
+     "url": "http://www.shandong.gov.cn/",
+     "snippet": "2019年12月28日 · 山东残特奥会9月17日临沂开幕 2026-09-12 城轨客运，山东何以跑出全国最高增速 2026-09-12 林武在日照调研时强 …",
+     "domain": "www.shandong.gov.cn"
+    },
+    {
+     "title": "山东 省行政区划_百度百科",
+     "url": "https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E7%9C%81%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92/357990",
+     "snippet": "山东省，简称鲁，中国23个省之一，位于华东地区，省会济南。 全省总面积15.79万平方千米，辖16个地级市。 截至2025年12月31 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "山东 旅游景点大全，最值得打卡的50个 山东 旅游景点，一文 ...",
+     "url": "https://zhuanlan.zhihu.com/p/708622827",
+     "snippet": "2024年7月21日 · 嗨，大家好，不知道小伙伴们有没有去过山东旅游？ 或者有没有小伙伴去过济南和青岛呢？ 其实山东不止是青岛和 …",
+     "domain": "zhuanlan.zhihu.com"
+    },
+    {
+     "title": "百度地图",
+     "url": "https://map.baidu.com/",
+     "snippet": "浏览地图、搜索地点、查询公交驾车线路、查看实时路况，您的出行指南、生活助手。提供地铁线路图浏览，乘车方案查询 ...",
+     "domain": "map.baidu.com"
+    },
+    {
+     "title": "Shandong - 山东 省人民政府",
+     "url": "http://gb.shandong.gov.cn/",
+     "snippet": "2019年12月28日 · 2026山东民营企业百强系列榜单发布 2026-09-15 山东三个案例入选全国智能光伏典型案例名单 2026-09-15 带学生 …",
+     "domain": "gb.shandong.gov.cn"
+    }
+   ]
+  }
+ ],
+ "正例": [
+  {
+   "query": "\"建筑与市政降水工程技术规范\"",
+   "来源": "results\\batch_sheet_full_01\\105_建筑与市政降水工程技术规范\\result.json",
+   "当时状态": "needs_confirmation",
+   "头名词线索": "ArchDaily 中文版 | 传播世界 建筑",
+   "rows": [
+    {
+     "title": "ArchDaily 中文版 | 传播世界 建筑",
+     "url": "https://www.archdaily.com/zh",
+     "snippet": "1 天前 · ArchDaily, 传播世界建筑: 为建筑专业人士时刻更新建筑新闻，竞赛和最新项目 布罗姆利市政厅。图片由 Assemble 提供 总部 …",
+     "domain": "www.archdaily.com"
+    },
+    {
+     "title": "建筑 物（ 建筑 物与构筑物的总称）_百度百科",
+     "url": "https://baike.baidu.com/item/%E5%BB%BA%E7%AD%91%E7%89%A9/673834",
+     "snippet": "建筑是建筑物与 构筑物 的总称。 是人们为了满足 社会生活 需要，利用所掌握的物质技术手段，并 运用 一定的科学规律、风水理念和 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "谷德设计网 - gooood",
+     "url": "https://www.gooood.cn/",
+     "snippet": "1 天前 · gooood 谷德设计网首页，浏览建筑、景观、室内与设计领域的最新项目、文章、招聘和专题内容。",
+     "domain": "www.gooood.cn"
+    },
+    {
+     "title": "建筑 学院 ArchCollege｜全球 建筑 项目案例库与 建筑 设计教程平台",
+     "url": "https://www.archcollege.com/",
+     "snippet": "2026年8月27日 · 建筑学院 ArchCollege 是建筑师与学生的学习与灵感平台，汇集全球建筑项目案例与设计教程，覆盖住宅、公共建筑 …",
+     "domain": "www.archcollege.com"
+    },
+    {
+     "title": "建筑 （汉语词语，指建造行为或人工环境）_百度百科",
+     "url": "https://baike.baidu.com/item/%E5%BB%BA%E7%AD%91/63716310",
+     "snippet": "建筑是建筑物与构筑物的总称，是人们为了满足社会生活需要，利用所掌握的物质技术手段，并运用一定的科学规律和美学法则创造的 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "搜 建筑 网 -- 具有影响力的 建筑 门户网站",
+     "url": "https://www.soujianzhu.cn/",
+     "snippet": "2026年9月4日 · 搜建筑网是具有影响力的建筑门户网站。以庞大的户型资料搜索功能为龙头，另拥有海量的楼盘资料库、建筑规范、 …",
+     "domain": "www.soujianzhu.cn"
+    }
+   ]
+  },
+  {
+   "query": "\"施工企业安全生产评价标准\"",
+   "来源": "results\\batch_sheet_full_01\\106_施工企业安全生产评价标准\\result.json",
+   "当时状态": "needs_confirmation",
+   "头名词线索": "史上最全工程 施工 全过程详解，没有之一！_主体",
+   "rows": [
+    {
+     "title": "施工 （建筑工程术语）_百度百科",
+     "url": "https://baike.baidu.com/item/%E6%96%BD%E5%B7%A5/32540",
+     "snippet": "施工指按照预定计划进行工程建造的行为，现代多指建筑工程实施。 该词源于宋代，朱熹《西原崔嘉彦书》已有栽植施工的记载，梅 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "建筑 施工 （工程建设实施阶段生产活动）_百度百科",
+     "url": "https://baike.baidu.com/item/%E5%BB%BA%E7%AD%91%E6%96%BD%E5%B7%A5/5243",
+     "snippet": "2009年3月23日 · 建筑施工是指工程建设实施阶段的生产活动，是各类建筑物的建造过程，也可以说是把设计图纸上的各种线条，在指 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "图解：工程建筑的详细 施工 步骤 - 知乎",
+     "url": "https://zhuanlan.zhihu.com/p/638249536",
+     "snippet": "2023年8月24日 · 我们希望你读完这篇文章后，不仅能了解到工程建筑施工的基本步骤，还能深入理解每个步骤的重要性，以及怎么样 …",
+     "domain": "zhuanlan.zhihu.com"
+    },
+    {
+     "title": "施工 过程和 施工 段的图解",
+     "url": "https://cp.baidu.com/landing/tscp_doc/f36ccc53db7cca431ff45637cfefb234",
+     "snippet": "三、总结 施工过程与施工段是建设项目施工管理中的重要概念。 通过对施工过程的详细解析和施工段的合理划分，可以更加科学地进 …",
+     "domain": "cp.baidu.com"
+    },
+    {
+     "title": "施工 阶段的五个阶段 (建筑 施工 一般包括哪五个阶段)-建管家",
+     "url": "https://www.jiangongdata.com/toutiao/340952.html",
+     "snippet": "2025年5月17日 · 施工阶段是建筑项目中最重要的阶段之一。这个阶段需要耗费大量的时间和金钱，同时这也是质量和安全的关键时期 …",
+     "domain": "www.jiangongdata.com"
+    },
+    {
+     "title": "史上最全工程 施工 全过程详解，没有之一！_主体",
+     "url": "https://www.sohu.com/a/251340241_100016713",
+     "snippet": "2018年9月1日 · 结合建筑工程施工企业及项目实际的情况（如材料供应、施工队伍、施工设备、资金等方面）合理科学地做好施工前的 …",
+     "domain": "www.sohu.com"
+    }
+   ]
+  },
+  {
+   "query": "\"关于进一步规范各类操作平台方案管理的要求\"",
+   "来源": "results\\batch_sheet_full_01\\23_关于进一步规范各类操作平台方案管理的要求\\result.json",
+   "当时状态": "needs_confirmation",
+   "头名词线索": "关于 （汉语词语）_百度百科",
+   "rows": [
+    {
+     "title": "关于 （汉语词语）_百度百科",
+     "url": "https://baike.baidu.com/item/%E5%85%B3%E4%BA%8E/81002",
+     "snippet": "该词最早见于南北朝徐陵《梁贞阳侯重与王太尉书》及宋代曾巩《序》，近现代鲁迅、巴金、朱自清等人作品中均有沿用，如巴金《寒 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "公文标题中能不能用两个“ 关于 ”，如何规范使用“ 关于 ”？ - 知乎",
+     "url": "https://zhuanlan.zhihu.com/p/575725147",
+     "snippet": "2022年10月20日 · 似乎公文标题必有“关于”，其实不然，“关于”并不是公文标题必不可少的组成部分。 一般而言，介词“关于”之后要附 …",
+     "domain": "zhuanlan.zhihu.com"
+    },
+    {
+     "title": "关于 的意思| 关于 是什么意思 - 查字典",
+     "url": "https://www.chazidian.com/r_ci_81d9f505441078e06980e0bd02616e94/",
+     "snippet": "2025年2月13日 · ”这个故事中的“关于”一词，后来逐渐演变为表示涉及到的意思。 成语结构（Structure of the Idiom）：动词+介词。 …",
+     "domain": "www.chazidian.com"
+    },
+    {
+     "title": "关于 和有 关于 的区别",
+     "url": "https://cp.baidu.com/landing/tscp_doc/709ad2dd09a6b5d536b6da344e0e3225",
+     "snippet": "“关于”常直接与名词、代词或动名词短语连用，构成介宾结构。 例如：“关于这个问题”、“关于他的决定”。 “有关于”则更多见于较正式 …",
+     "domain": "cp.baidu.com"
+    },
+    {
+     "title": "“对”、“对于”和“ 关于 ”的用法区别（辨析）",
+     "url": "https://heji.baidu.com/view/238d2d51cb84b9d528ea81c758f5f61fb73628e1.html",
+     "snippet": "“对”、“对于”和“关于”的用法区别（辨析）-“对”、“对于”和“关于”的用法区别（辨析） 在汉语写作和口语中，“对”、“对于”和“关于”是三个 …",
+     "domain": "heji.baidu.com"
+    },
+    {
+     "title": "公文标题中的“ 关于 ”如何用？ - 知乎",
+     "url": "https://zhuanlan.zhihu.com/p/403986584",
+     "snippet": "2021年8月26日 · “关于”在公文标题中的地位是不言而喻的。 似乎公文标题必有“关于”，其实不然，“关于”并不是公文标题必不可少的组 …",
+     "domain": "zhuanlan.zhihu.com"
+    }
+   ]
+  },
+  {
+   "query": "\"建筑施工特种作业人员管理规定\"",
+   "来源": "results\\batch_sheet_full_01\\28_建筑施工特种作业人员管理规定\\result.json",
+   "当时状态": "needs_confirmation",
+   "头名词线索": "ArchDaily 中文版 | 传播世界 建筑",
+   "rows": [
+    {
+     "title": "ArchDaily 中文版 | 传播世界 建筑",
+     "url": "https://www.archdaily.com/zh",
+     "snippet": "1 天前 · ArchDaily, 传播世界建筑: 为建筑专业人士时刻更新建筑新闻，竞赛和最新项目 布罗姆利市政厅。图片由 Assemble 提供 总部 …",
+     "domain": "www.archdaily.com"
+    },
+    {
+     "title": "建筑 物（ 建筑 物与构筑物的总称）_百度百科",
+     "url": "https://baike.baidu.com/item/%E5%BB%BA%E7%AD%91%E7%89%A9/673834",
+     "snippet": "建筑是建筑物与 构筑物 的总称。 是人们为了满足 社会生活 需要，利用所掌握的物质技术手段，并 运用 一定的科学规律、风水理念和 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "谷德设计网 - gooood",
+     "url": "https://www.gooood.cn/",
+     "snippet": "1 天前 · gooood 谷德设计网首页，浏览建筑、景观、室内与设计领域的最新项目、文章、招聘和专题内容。",
+     "domain": "www.gooood.cn"
+    },
+    {
+     "title": "建筑 学院 ArchCollege｜全球 建筑 项目案例库与 建筑 设计教程平台",
+     "url": "https://www.archcollege.com/",
+     "snippet": "2026年8月27日 · 建筑学院 ArchCollege 是建筑师与学生的学习与灵感平台，汇集全球建筑项目案例与设计教程，覆盖住宅、公共建筑 …",
+     "domain": "www.archcollege.com"
+    },
+    {
+     "title": "建筑 （汉语词语，指建造行为或人工环境）_百度百科",
+     "url": "https://baike.baidu.com/item/%E5%BB%BA%E7%AD%91/63716310",
+     "snippet": "建筑是建筑物与构筑物的总称，是人们为了满足社会生活需要，利用所掌握的物质技术手段，并运用一定的科学规律和美学法则创造的 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "搜 建筑 网 -- 具有影响力的 建筑 门户网站",
+     "url": "https://www.soujianzhu.cn/",
+     "snippet": "2026年9月4日 · 搜建筑网是具有影响力的建筑门户网站。以庞大的户型资料搜索功能为龙头，另拥有海量的楼盘资料库、建筑规范、 …",
+     "domain": "www.soujianzhu.cn"
+    }
+   ]
+  },
+  {
+   "query": "\"关于实施《危险性较大的分部分项工程安全管理规定》有关问题的通知\"",
+   "来源": "results\\batch_sheet_full_01\\36_关于实施《危险性较大的分部分项工程安全管理规定》有关问题的通知\\result.json",
+   "当时状态": "success",
+   "头名词线索": "关于 （汉语词语）_百度百科",
+   "rows": [
+    {
+     "title": "关于 （汉语词语）_百度百科",
+     "url": "https://baike.baidu.com/item/%E5%85%B3%E4%BA%8E/81002",
+     "snippet": "该词最早见于南北朝徐陵《梁贞阳侯重与王太尉书》及宋代曾巩《序》，近现代鲁迅、巴金、朱自清等人作品中均有沿用，如巴金《寒 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "公文标题中能不能用两个“ 关于 ”，如何规范使用“ 关于 ”？ - 知乎",
+     "url": "https://zhuanlan.zhihu.com/p/575725147",
+     "snippet": "2022年10月20日 · 似乎公文标题必有“关于”，其实不然，“关于”并不是公文标题必不可少的组成部分。 一般而言，介词“关于”之后要附 …",
+     "domain": "zhuanlan.zhihu.com"
+    },
+    {
+     "title": "关于 的意思| 关于 是什么意思 - 查字典",
+     "url": "https://www.chazidian.com/r_ci_81d9f505441078e06980e0bd02616e94/",
+     "snippet": "2025年2月13日 · ”这个故事中的“关于”一词，后来逐渐演变为表示涉及到的意思。 成语结构（Structure of the Idiom）：动词+介词。 …",
+     "domain": "www.chazidian.com"
+    },
+    {
+     "title": "关于 和有 关于 的区别",
+     "url": "https://cp.baidu.com/landing/tscp_doc/709ad2dd09a6b5d536b6da344e0e3225",
+     "snippet": "“关于”常直接与名词、代词或动名词短语连用，构成介宾结构。 例如：“关于这个问题”、“关于他的决定”。 “有关于”则更多见于较正式 …",
+     "domain": "cp.baidu.com"
+    },
+    {
+     "title": "“对”、“对于”和“ 关于 ”的用法区别（辨析）",
+     "url": "https://heji.baidu.com/view/238d2d51cb84b9d528ea81c758f5f61fb73628e1.html",
+     "snippet": "“对”、“对于”和“关于”的用法区别（辨析）-“对”、“对于”和“关于”的用法区别（辨析） 在汉语写作和口语中，“对”、“对于”和“关于”是三个 …",
+     "domain": "heji.baidu.com"
+    },
+    {
+     "title": "公文标题中的“ 关于 ”如何用？ - 知乎",
+     "url": "https://zhuanlan.zhihu.com/p/403986584",
+     "snippet": "2021年8月26日 · “关于”在公文标题中的地位是不言而喻的。 似乎公文标题必有“关于”，其实不然，“关于”并不是公文标题必不可少的组 …",
+     "domain": "zhuanlan.zhihu.com"
+    }
+   ]
+  },
+  {
+   "query": "\"模板支架安全管理十条\"",
+   "来源": "results\\batch_sheet_full_01\\49_模板支架安全管理十条\\result.json",
+   "当时状态": "needs_confirmation",
+   "头名词线索": "模板 _免费 模板 素材_设计 模板 图片 - Canva可画",
+   "rows": [
+    {
+     "title": "模板 _免费 模板 素材_设计 模板 图片 - Canva可画",
+     "url": "https://www.canva.cn/templates/",
+     "snippet": "在线设计软件Canva可画提供了海量的设计模板，涵盖PPT、简历、手抄报、名片、海报、宣传单、邀请函、奖状、荣誉证书、菜单等 …",
+     "domain": "www.canva.cn"
+    },
+    {
+     "title": "PPT 模板 _PPT模版免费下载_免费PPT 模板 下载 -【第一PPT】",
+     "url": "https://www.1ppt.com/",
+     "snippet": "10 小时之前 · 第一PPT模板网提供各类PPT模板免费下载，PPT背景图，PPT素材，PPT背景，免费PPT模板下载，PPT图表，精 …",
+     "domain": "www.1ppt.com"
+    },
+    {
+     "title": "免费 模板 库 · 全部精选 模板 免费",
+     "url": "https://www.rtemplate.cn/",
+     "snippet": "免费模板下载，涵盖各行业、岗位、风格，支持Word和PDF格式，助你高效制作专业文档。",
+     "domain": "www.rtemplate.cn"
+    },
+    {
+     "title": "千图网-免费在线设计图片素材网站-正版商用素材图库 模板 大全",
+     "url": "https://www.58pic.com/",
+     "snippet": "千图网 (www.58pic.com) 是专注正版商用图片素材在线设计与下载的网站！ 提供矢量图素材、背景图片、psd素材、字体模板、设计 …",
+     "domain": "www.58pic.com"
+    },
+    {
+     "title": "模板 _百度百科",
+     "url": "https://baike.baidu.com/item/%E6%A8%A1%E6%9D%BF/2890455",
+     "snippet": "模板的作用就是告诉编辑者，这个类型的词条基本的结构应该包含哪几部分（当然并不是必须的）。 如果您发现某个词条的结构不完 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "PPT 模板 _PPT图片_PPT素材 - Canva可画",
+     "url": "https://www.canva.cn/presentations/templates/",
+     "snippet": "Canva可画模板素材库拥有5000+不同主题、风格的PPT模板，涵盖企业宣传、营销策划、工作汇报、教学课件等多个行业，只需要在 …",
+     "domain": "www.canva.cn"
+    }
+   ]
+  }
+ ],
+ "反例": [
+  {
+   "query": "\"房屋市政工程生产安全重大事故隐患判定标准（2024版）\"",
+   "来源": "results\\ab_chooser_on\\01_房屋市政工程生产安全重大事故隐患判定标准（2024版）\\result.json",
+   "当时状态": "success",
+   "source_url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995806.htm",
+   "最长连续命中": 20,
+   "rows": [
+    {
+     "title": "住房城乡建设部关于印发《 房屋市政工程生产安全重大事故 ...",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995806.htm",
+     "snippet": "2024年12月13日 · 为准确认定、及时消除房屋建筑和市政基础设施工程生产安全重大事故隐患，有效防范和遏制群死群伤事故发生， …",
+     "domain": "www.gov.cn"
+    },
+    {
+     "title": "住房城乡建设部关于印发《 房屋市政工程 生产安全重大事故 ...",
+     "url": "https://www.mohurd.gov.cn/gongkai/zc/xzgfxwjk/art/2024/art_1446154772.html",
+     "snippet": "2024年12月13日 · 各省、自治区住房城乡建设厅，直辖市住房城乡建设（管）委，北京市城市管理委，上海市交通委，新疆生产建设 …",
+     "domain": "www.mohurd.gov.cn"
+    },
+    {
+     "title": "《 房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ...",
+     "url": "https://www.aspd.gov.cn/zwgk/zdlyxx/szfw/202501/t20250123_86669676.html",
+     "snippet": "2025年1月23日 · 住房城乡建设部于2024年12月13日发布了《房屋市政工程 生产安全重大事故隐患判定标准 （2024版）》，现公布如 …",
+     "domain": "www.aspd.gov.cn"
+    },
+    {
+     "title": "房屋市政工程生产安全重大事故隐患判定标准 ( 2024版 )",
+     "url": "https://wenku.baidu.com/view/a8a2b22f5cbfc77da26925c52cc58bd630869364.html",
+     "snippet": "房屋市政工程生产安全重大事故隐患判定标准 (2024版)-针对当前房屋市政工程领域安全生产工作的新情况新问题，住建部对相关法律 …",
+     "domain": "wenku.baidu.com"
+    },
+    {
+     "title": "房屋市政工程生产安全重大事故隐患 判定标准 （ 2024",
+     "url": "https://21003437.s21i.faiusr.com/61/ABUIABA9GAAgyLytuwYogIGU6AQ.pdf",
+     "snippet": "为准确认定、及时消除房屋建筑和市政基础设施工程( 以下简称房屋市政工程)生 产安全重大事故隐患,有效防范和遏制群死群伤事故发 …",
+     "domain": "21003437.s21i.faiusr.com"
+    },
+    {
+     "title": "房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ）",
+     "url": "https://zfcxjst.hlj.gov.cn/zfcxjst/c115867/202501/c00_31798409.shtml",
+     "snippet": "2025年1月3日 · 房屋市政工程生产安全重大事故隐患判定标准（2024版） 日期： 2025-01-03 14:14 【字体: 大 中 小】 分享： 房屋市 …",
+     "domain": "zfcxjst.hlj.gov.cn"
+    }
+   ]
+  },
+  {
+   "query": "\"房屋市政工程生产安全重大事故隐患判定标准（2024版）\" 最新 现行",
+   "来源": "results\\ab_chooser_on\\01_房屋市政工程生产安全重大事故隐患判定标准（2024版）\\result.json",
+   "当时状态": "success",
+   "source_url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995806.htm",
+   "最长连续命中": 20,
+   "rows": [
+    {
+     "title": "住房城乡建设部关于印发《 房屋市政工程生产安全重大事故 ...",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995806.htm",
+     "snippet": "2024年12月13日 · 为准确认定、及时消除房屋建筑和市政基础设施工程生产安全重大事故隐患，有效防范和遏制群死群伤事故发生， …",
+     "domain": "www.gov.cn"
+    },
+    {
+     "title": "住房城乡建设部关于印发《 房屋市政工程 生产安全重大事故 ...",
+     "url": "https://www.mohurd.gov.cn/gongkai/zc/xzgfxwjk/art/2024/art_1446154772.html",
+     "snippet": "2024年12月13日 · 各省、自治区住房城乡建设厅，直辖市住房城乡建设（管）委，北京市城市管理委，上海市交通委，新疆生产建设 …",
+     "domain": "www.mohurd.gov.cn"
+    },
+    {
+     "title": "《 房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ...",
+     "url": "https://www.aspd.gov.cn/zwgk/zdlyxx/szfw/202501/t20250123_86669676.html",
+     "snippet": "2025年1月23日 · 住房城乡建设部于2024年12月13日发布了《房屋市政工程 生产安全重大事故隐患判定标准 （2024版）》，现公布如 …",
+     "domain": "www.aspd.gov.cn"
+    },
+    {
+     "title": "房屋市政工程生产安全重大事故隐患判定标准 ( 2024版 )",
+     "url": "https://wenku.baidu.com/view/a8a2b22f5cbfc77da26925c52cc58bd630869364.html",
+     "snippet": "房屋市政工程生产安全重大事故隐患判定标准 (2024版)-针对当前房屋市政工程领域安全生产工作的新情况新问题，住建部对相关法律 …",
+     "domain": "wenku.baidu.com"
+    },
+    {
+     "title": "房屋市政工程生产安全重大事故隐患 判定标准 （ 2024",
+     "url": "https://21003437.s21i.faiusr.com/61/ABUIABA9GAAgyLytuwYogIGU6AQ.pdf",
+     "snippet": "为准确认定、及时消除房屋建筑和市政基础设施工程( 以下简称房屋市政工程)生 产安全重大事故隐患,有效防范和遏制群死群伤事故发 …",
+     "domain": "21003437.s21i.faiusr.com"
+    },
+    {
+     "title": "房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ）",
+     "url": "https://zfcxjst.hlj.gov.cn/zfcxjst/c115867/202501/c00_31798409.shtml",
+     "snippet": "2025年1月3日 · 房屋市政工程生产安全重大事故隐患判定标准（2024版） 日期： 2025-01-03 14:14 【字体: 大 中 小】 分享： 房屋市 …",
+     "domain": "zfcxjst.hlj.gov.cn"
+    }
+   ]
+  },
+  {
+   "query": "\"房屋市政工程生产安全重大事故隐患判定标准（2024版）\" filetype:pdf",
+   "来源": "results\\ab_chooser_on\\01_房屋市政工程生产安全重大事故隐患判定标准（2024版）\\result.json",
+   "当时状态": "success",
+   "source_url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995806.htm",
+   "最长连续命中": 20,
+   "rows": [
+    {
+     "title": "住房城乡建设部关于印发《 房屋市政工程生产安全重大事故 ...",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6995806.htm",
+     "snippet": "2024年12月13日 · 为准确认定、及时消除房屋建筑和市政基础设施工程生产安全重大事故隐患，有效防范和遏制群死群伤事故发生， …",
+     "domain": "www.gov.cn"
+    },
+    {
+     "title": "住房城乡建设部关于印发《 房屋市政工程 生产安全重大事故 ...",
+     "url": "https://www.mohurd.gov.cn/gongkai/zc/xzgfxwjk/art/2024/art_1446154772.html",
+     "snippet": "2024年12月13日 · 各省、自治区住房城乡建设厅，直辖市住房城乡建设（管）委，北京市城市管理委，上海市交通委，新疆生产建设 …",
+     "domain": "www.mohurd.gov.cn"
+    },
+    {
+     "title": "《 房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ...",
+     "url": "https://www.aspd.gov.cn/zwgk/zdlyxx/szfw/202501/t20250123_86669676.html",
+     "snippet": "2025年1月23日 · 住房城乡建设部于2024年12月13日发布了《房屋市政工程 生产安全重大事故隐患判定标准 （2024版）》，现公布如 …",
+     "domain": "www.aspd.gov.cn"
+    },
+    {
+     "title": "房屋市政工程生产安全重大事故隐患判定标准 ( 2024版 )",
+     "url": "https://wenku.baidu.com/view/a8a2b22f5cbfc77da26925c52cc58bd630869364.html",
+     "snippet": "房屋市政工程生产安全重大事故隐患判定标准 (2024版)-针对当前房屋市政工程领域安全生产工作的新情况新问题，住建部对相关法律 …",
+     "domain": "wenku.baidu.com"
+    },
+    {
+     "title": "房屋市政工程生产安全重大事故隐患 判定标准 （ 2024",
+     "url": "https://21003437.s21i.faiusr.com/61/ABUIABA9GAAgyLytuwYogIGU6AQ.pdf",
+     "snippet": "为准确认定、及时消除房屋建筑和市政基础设施工程( 以下简称房屋市政工程)生 产安全重大事故隐患,有效防范和遏制群死群伤事故发 …",
+     "domain": "21003437.s21i.faiusr.com"
+    },
+    {
+     "title": "房屋市政工程生产安全重大事故隐患判定标准 （ 2024版 ）",
+     "url": "https://zfcxjst.hlj.gov.cn/zfcxjst/c115867/202501/c00_31798409.shtml",
+     "snippet": "2025年1月3日 · 房屋市政工程生产安全重大事故隐患判定标准（2024版） 日期： 2025-01-03 14:14 【字体: 大 中 小】 分享： 房屋市 …",
+     "domain": "zfcxjst.hlj.gov.cn"
+    }
+   ]
+  },
+  {
+   "query": "\"钢丝绳铝合金压制接头\"",
+   "来源": "results\\batch_entry_fix_01\\01_钢丝绳铝合金压制接头\\result.json",
+   "当时状态": "success",
+   "source_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D77C65D3A7E05397BE0A0AB82A",
+   "最长连续命中": 10,
+   "rows": [
+    {
+     "title": "国家标准|GB/T 6946-2008",
+     "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=3BEE46C92ED8405E96A75FD8C60A84BE",
+     "snippet": "2008年7月27日 · 版权所有 侵权必究 主管：国家市场监督管理总局 国家标准化管理委员会 主办：国家市场监督管理总局国家标准技术 …",
+     "domain": "openstd.samr.gov.cn"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头",
+     "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D77C65D3A7E05397BE0A0AB82A",
+     "snippet": "2008年7月27日 · 国家标准《钢丝绳铝合金压制接头》 由 TC328 （全国建筑施工机械与设备标准化技术委员会）归口 ，主管部门为 …",
+     "domain": "std.samr.gov.cn"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头 （GB∕T6946-2008） - 道客巴巴",
+     "url": "https://www.doc88.com/p-91890175451957.html",
+     "snippet": "2025年10月13日 · 内容提示： 1 GB/T 6946—2008 钢丝绳铝合金压制接头 1 范围 本标准规定了钢丝绳铝合金压制接头 (以下简称接头) …",
+     "domain": "www.doc88.com"
+    },
+    {
+     "title": "GB∕T6946-2008 钢丝绳铝合金压制接头 (高清版) - 道客巴巴",
+     "url": "https://www.doc88.com/p-8015903564688.html",
+     "snippet": "2019年6月5日 · 16 p. 20 p. 14 p. 26 p. 44 p. 56 p. 10 p. 22 p. 58 p.",
+     "domain": "www.doc88.com"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头 技术规范全解 - 百度文库",
+     "url": "https://wenku.baidu.com/view/23cb7e12f511f18583d049649b6648d7c1c708c6.html",
+     "snippet": "选型时应注意： 对于直径超过90mm的钢丝绳，推荐采用双铝合金压制接头结构以提高可靠性。 在潮湿或露天环境，应优先选择镀锌 …",
+     "domain": "wenku.baidu.com"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头 技术规范与应用指南_百度文库",
+     "url": "https://wenku.baidu.com/view/088ab54b73232f60ddccda38376baf1ffc4fe3ac.html",
+     "snippet": "标准适用于公称抗拉强度不大于1770MPa、直径6至60mm的圆股钢丝绳接头制造。 相比旧版主要修订内容包括：调整接头分类为A …",
+     "domain": "wenku.baidu.com"
+    }
+   ]
+  },
+  {
+   "query": "\"钢丝绳铝合金压制接头\" 最新 现行",
+   "来源": "results\\batch_entry_fix_01\\01_钢丝绳铝合金压制接头\\result.json",
+   "当时状态": "success",
+   "source_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D77C65D3A7E05397BE0A0AB82A",
+   "最长连续命中": 10,
+   "rows": [
+    {
+     "title": "国家标准|GB/T 6946-2008",
+     "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=3BEE46C92ED8405E96A75FD8C60A84BE",
+     "snippet": "2008年7月27日 · 版权所有 侵权必究 主管：国家市场监督管理总局 国家标准化管理委员会 主办：国家市场监督管理总局国家标准技术 …",
+     "domain": "openstd.samr.gov.cn"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头",
+     "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D77C65D3A7E05397BE0A0AB82A",
+     "snippet": "2008年7月27日 · 国家标准《钢丝绳铝合金压制接头》 由 TC328 （全国建筑施工机械与设备标准化技术委员会）归口 ，主管部门为 …",
+     "domain": "std.samr.gov.cn"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头 （GB∕T6946-2008） - 道客巴巴",
+     "url": "https://www.doc88.com/p-91890175451957.html",
+     "snippet": "2025年10月13日 · 内容提示： 1 GB/T 6946—2008 钢丝绳铝合金压制接头 1 范围 本标准规定了钢丝绳铝合金压制接头 (以下简称接头) …",
+     "domain": "www.doc88.com"
+    },
+    {
+     "title": "GB∕T6946-2008 钢丝绳铝合金压制接头 (高清版) - 道客巴巴",
+     "url": "https://www.doc88.com/p-8015903564688.html",
+     "snippet": "2019年6月5日 · 16 p. 20 p. 14 p. 26 p. 44 p. 56 p. 10 p. 22 p. 58 p.",
+     "domain": "www.doc88.com"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头 技术规范全解 - 百度文库",
+     "url": "https://wenku.baidu.com/view/23cb7e12f511f18583d049649b6648d7c1c708c6.html",
+     "snippet": "选型时应注意： 对于直径超过90mm的钢丝绳，推荐采用双铝合金压制接头结构以提高可靠性。 在潮湿或露天环境，应优先选择镀锌 …",
+     "domain": "wenku.baidu.com"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头 技术规范与应用指南_百度文库",
+     "url": "https://wenku.baidu.com/view/088ab54b73232f60ddccda38376baf1ffc4fe3ac.html",
+     "snippet": "标准适用于公称抗拉强度不大于1770MPa、直径6至60mm的圆股钢丝绳接头制造。 相比旧版主要修订内容包括：调整接头分类为A …",
+     "domain": "wenku.baidu.com"
+    }
+   ]
+  },
+  {
+   "query": "\"钢丝绳铝合金压制接头\" filetype:pdf",
+   "来源": "results\\batch_entry_fix_01\\01_钢丝绳铝合金压制接头\\result.json",
+   "当时状态": "success",
+   "source_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D77C65D3A7E05397BE0A0AB82A",
+   "最长连续命中": 10,
+   "rows": [
+    {
+     "title": "国家标准|GB/T 6946-2008",
+     "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=3BEE46C92ED8405E96A75FD8C60A84BE",
+     "snippet": "2008年7月27日 · 版权所有 侵权必究 主管：国家市场监督管理总局 国家标准化管理委员会 主办：国家市场监督管理总局国家标准技术 …",
+     "domain": "openstd.samr.gov.cn"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头",
+     "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D77C65D3A7E05397BE0A0AB82A",
+     "snippet": "2008年7月27日 · 国家标准《钢丝绳铝合金压制接头》 由 TC328 （全国建筑施工机械与设备标准化技术委员会）归口 ，主管部门为 …",
+     "domain": "std.samr.gov.cn"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头 （GB∕T6946-2008） - 道客巴巴",
+     "url": "https://www.doc88.com/p-91890175451957.html",
+     "snippet": "2025年10月13日 · 内容提示： 1 GB/T 6946—2008 钢丝绳铝合金压制接头 1 范围 本标准规定了钢丝绳铝合金压制接头 (以下简称接头) …",
+     "domain": "www.doc88.com"
+    },
+    {
+     "title": "GB∕T6946-2008 钢丝绳铝合金压制接头 (高清版) - 道客巴巴",
+     "url": "https://www.doc88.com/p-8015903564688.html",
+     "snippet": "2019年6月5日 · 16 p. 20 p. 14 p. 26 p. 44 p. 56 p. 10 p. 22 p. 58 p.",
+     "domain": "www.doc88.com"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头 技术规范全解 - 百度文库",
+     "url": "https://wenku.baidu.com/view/23cb7e12f511f18583d049649b6648d7c1c708c6.html",
+     "snippet": "选型时应注意： 对于直径超过90mm的钢丝绳，推荐采用双铝合金压制接头结构以提高可靠性。 在潮湿或露天环境，应优先选择镀锌 …",
+     "domain": "wenku.baidu.com"
+    },
+    {
+     "title": "钢丝绳铝合金压制接头 技术规范与应用指南_百度文库",
+     "url": "https://wenku.baidu.com/view/088ab54b73232f60ddccda38376baf1ffc4fe3ac.html",
+     "snippet": "标准适用于公称抗拉强度不大于1770MPa、直径6至60mm的圆股钢丝绳接头制造。 相比旧版主要修订内容包括：调整接头分类为A …",
+     "domain": "wenku.baidu.com"
+    }
+   ]
+  },
+  {
+   "query": "\"生产过程安全卫生要求总则\"",
+   "来源": "results\\batch_entry_fix_01\\02_生产过程安全卫生要求总则\\result.json",
+   "当时状态": "success",
+   "source_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D75C36D3A7E05397BE0A0AB82A",
+   "最长连续命中": 12,
+   "rows": [
+    {
+     "title": "生产过程安全卫生要求总则",
+     "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D75C36D3A7E05397BE0A0AB82A",
+     "snippet": "2008年12月15日 · 国家标准《生产过程安全卫生要求总则》 由 TC288 （全国安全生产标准化技术委员会）归口 ，主管部门为 应急管 …",
+     "domain": "std.samr.gov.cn"
+    },
+    {
+     "title": "国家标准|GB/T 12801-2008",
+     "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=37E7BD7D47A0F8085504F428526FDC8E",
+     "snippet": "2008年12月15日 · 版权所有 侵权必究 主管：国家市场监督管理总局 国家标准化管理委员会 主办：国家市场监督管理总局国家标准技 …",
+     "domain": "openstd.samr.gov.cn"
+    },
+    {
+     "title": "生产过程安全卫生要求总则 _百度百科",
+     "url": "https://baike.baidu.com/item/%E7%94%9F%E4%BA%A7%E8%BF%87%E7%A8%8B%E5%AE%89%E5%85%A8%E5%8D%AB%E7%94%9F%E8%A6%81%E6%B1%82%E6%80%BB%E5%88%99/16629345",
+     "snippet": "《生产过程安全卫生要求总则》是由中华人民共和国国家质量监督检验检疫总局、中国国家标准化管理委员会于2008年发布的国家推 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "国家标准|GB 12801-2025",
+     "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=460626D8FC0EFC7D30C0160D003D185F",
+     "snippet": "标准号：GB 12801-2025 中文标准名称： 生产过程安全基本要求 英文标准名称：General requirements of safety in production …",
+     "domain": "openstd.samr.gov.cn"
+    },
+    {
+     "title": "生产过程安全卫生要求总则",
+     "url": "https://pyso.newswz.cn/upload/202207/202207141833367180.pdf",
+     "snippet": "2017年1月21日 · 本标准 1991 年4 月26 日首次发布,2008 年第一次修订。 本标准规定了生产过程安全卫生的基本要求; 控制生产过程安 …",
+     "domain": "pyso.newswz.cn"
+    },
+    {
+     "title": "GB 12801-2025 生产过程安全 基本 要求 _国家标准_河南省 ...",
+     "url": "https://yjglt.henan.gov.cn/2026/01-20/3311450.html",
+     "snippet": "生产过程安全基本要求GB12801-2025.pdf 网站地图 | 联系我们 主办单位：河南省应急管理厅 政府网站标识码：4100000082 备案序 …",
+     "domain": "yjglt.henan.gov.cn"
+    }
+   ]
+  },
+  {
+   "query": "\"生产过程安全卫生要求总则\" 最新 现行",
+   "来源": "results\\batch_entry_fix_01\\02_生产过程安全卫生要求总则\\result.json",
+   "当时状态": "success",
+   "source_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D75C36D3A7E05397BE0A0AB82A",
+   "最长连续命中": 12,
+   "rows": [
+    {
+     "title": "生产过程安全卫生要求总则",
+     "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D75C36D3A7E05397BE0A0AB82A",
+     "snippet": "2008年12月15日 · 国家标准《生产过程安全卫生要求总则》 由 TC288 （全国安全生产标准化技术委员会）归口 ，主管部门为 应急管 …",
+     "domain": "std.samr.gov.cn"
+    },
+    {
+     "title": "国家标准|GB/T 12801-2008",
+     "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=37E7BD7D47A0F8085504F428526FDC8E",
+     "snippet": "2008年12月15日 · 版权所有 侵权必究 主管：国家市场监督管理总局 国家标准化管理委员会 主办：国家市场监督管理总局国家标准技 …",
+     "domain": "openstd.samr.gov.cn"
+    },
+    {
+     "title": "生产过程安全卫生要求总则 _百度百科",
+     "url": "https://baike.baidu.com/item/%E7%94%9F%E4%BA%A7%E8%BF%87%E7%A8%8B%E5%AE%89%E5%85%A8%E5%8D%AB%E7%94%9F%E8%A6%81%E6%B1%82%E6%80%BB%E5%88%99/16629345",
+     "snippet": "《生产过程安全卫生要求总则》是由中华人民共和国国家质量监督检验检疫总局、中国国家标准化管理委员会于2008年发布的国家推 …",
+     "domain": "baike.baidu.com"
+    },
+    {
+     "title": "国家标准|GB 12801-2025",
+     "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=460626D8FC0EFC7D30C0160D003D185F",
+     "snippet": "标准号：GB 12801-2025 中文标准名称： 生产过程安全基本要求 英文标准名称：General requirements of safety in production …",
+     "domain": "openstd.samr.gov.cn"
+    },
+    {
+     "title": "生产过程安全卫生要求总则",
+     "url": "https://pyso.newswz.cn/upload/202207/202207141833367180.pdf",
+     "snippet": "2017年1月21日 · 本标准 1991 年4 月26 日首次发布,2008 年第一次修订。 本标准规定了生产过程安全卫生的基本要求; 控制生产过程安 …",
+     "domain": "pyso.newswz.cn"
+    },
+    {
+     "title": "GB 12801-2025 生产过程安全 基本 要求 _国家标准_河南省 ...",
+     "url": "https://yjglt.henan.gov.cn/2026/01-20/3311450.html",
+     "snippet": "生产过程安全基本要求GB12801-2025.pdf 网站地图 | 联系我们 主办单位：河南省应急管理厅 政府网站标识码：4100000082 备案序 …",
+     "domain": "yjglt.henan.gov.cn"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "standards-crawler-agent"
+version = "0.1.0"
+description = "LangGraph + Playwright agent that resolves a document name to its official source and downloads the real file, verifying the content before claiming success."
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = [
+  "langgraph",
+  "playwright",
+  "web-crawler",
+  "document-download",
+  "chinese-standards",
+  "government-documents",
+  "content-verification",
+]
+dependencies = [
+  "langgraph>=0.2.0",
+  "langchain-core>=0.3.0",
+  "httpx>=0.27.0",
+  "beautifulsoup4>=4.12.0",
+  "lxml>=5.0.0",
+  "pypdf>=5.0.0",
+  # pypdf 解析 AES 加密的 PDF 需要它（标准原文常见 AES 加密 + 空口令）。
+  # 缺了它 pypdf 连 PdfReader 都构造不出来，会把"已经下到的官方原件"判成
+  # "PDF 内容校验未执行" → 假失败（实测《公路工程混凝土结构耐久性设计规范》）。
+  "cryptography>=41.0.0",
+  "python-docx>=1.1.0",
+  "openpyxl>=3.1.0",
+  "playwright>=1.45.0",
+  "pydantic>=2.8.0",
+  "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+standards-crawler-agent = "standards_crawler_agent.cli:main"
+
+[project.urls]
+Repository = "https://github.com/anziaa/standards-crawler-agent"
+
+[project.optional-dependencies]
+openai = ["langchain-openai>=0.2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

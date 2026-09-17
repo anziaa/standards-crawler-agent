@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.conda-env/
+
+# ---- 密钥与本地配置 ----
+.env
+
+# ---- 业务数据：编制依据表与导出的结果表 ----
+*编制依据*.xlsx
+*_爬取结果.xlsx
+
+# ---- 运行产物（本地保留，不上传）----
+downloads/
+temp/
+logs/
+results/
+
+# ---- 改动前的回滚备份（.backup_<时间戳>/）----
+.backup_*/
+
+# ---- 审计 / 备份脚手架 ----
+_backup/
+_audit_tmp/
+.codebase-memory/
+
+# ---- 测试快照与差异产物（tests/verify_snapshot.py、diff_snapshots.py 的输出）----
+tests/snapshot_*.json
+tests/diff*.txt
+
+# ---- 一次性调试轨迹 ----
+test_trace_*
+results_test_stdout.json
+
+# ---- 工具缓存 ----
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

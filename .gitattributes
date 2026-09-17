@@ -1,0 +1,17 @@
+# 统一按 LF 存进仓库，避免 Windows / macOS / Linux 之间反复出现 "LF will be replaced by CRLF"
+* text=auto eol=lf
+
+# 二进制夹具：不要让 git 做换行转换或 diff
+*.pdf   binary
+*.doc   binary
+*.docx  binary
+*.xlsx  binary
+*.xls   binary
+
+# Windows 脚本保留 CRLF
+*.ps1   text eol=crlf
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# 语言统计：把开发日志排除在"文档占比"之外
+docs/DEVELOPMENT-LOG.md linguist-documentation
